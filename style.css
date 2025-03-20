@@ -135,6 +135,28 @@ input {
     text-decoration: line-through;
     color: gray;
 }
+@media (max-width: 768px) {
+    .msg-container {
+        margin: 50px auto;
+        padding: 15px;
+    }
+    
+    .task-list, .list-container {
+        margin-left: 2rem;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    input {
+        width: 12rem;
+        font-size: 14px;
+    }
+
+    .btn {
+        width: 3rem;
+        font-size: 14px;
+    }
+}
 @media (max-width: 480px) {
     .top-heading {
         font-size: 24px;
@@ -147,6 +169,7 @@ input {
     .task-list, .list-container {
         margin-left: 1rem;
         font-size: 18px;
+        text-algin:center;
     }
 
     ul li {
