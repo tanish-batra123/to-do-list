@@ -135,3 +135,33 @@ input {
     text-decoration: line-through;
     color: gray;
 }
+@media (max-width: 480px) {
+    .top-heading {
+        font-size: 24px;
+    }
+
+    .msg-container {
+        padding: 10px;
+    }
+
+    .task-list, .list-container {
+        margin-left: 1rem;
+        font-size: 18px;
+    }
+
+    ul li {
+        font-size: 14px;
+        padding-left: 34px;
+    }
+
+    input {
+        width: 10rem;
+        font-size: 12px;
+    }
+
+    .btn {
+        width: 3rem;
+        font-size: 12px;
+    }
+} 
+
